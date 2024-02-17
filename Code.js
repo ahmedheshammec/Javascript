@@ -1,4 +1,5 @@
-const numbers = [1, 2, 3, 4, 5];
+gpcl6win64.exe
 
-const sumOfNumbers = numbers.reduce((sum, num) => sum + num, 0);
+convert.exe -density 300 input.pdf -quality 90 output_prefix-%d.png
 
+convert.exe -density 150 *.png output.pdf

@@ -7,8 +7,7 @@ const user = {
 let finalData = "";
 
 for (let info in user) {
-  finalData += `The ${info} Is => ${user[info]}\n`;
+  finalData += `<div>The ${info} Is => ${user[info]}</div>`;
 };
 
-console.log(finalData);
-
+document.body.innerHTML = finalData;
