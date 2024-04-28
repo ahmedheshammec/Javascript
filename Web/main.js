@@ -1,13 +1,14 @@
-const user = {
-  name: "Osama",
-  country: "Egypt",
-  age: 37,
-};
+var myMainDiv = document.getElementById('main'),
+    
+    // Create Div Element
+    myNewElement = document.createElement('div'), 
+    
+    // Create Text Node
+    myText = document.createTextNode('Hello From Javascript');
 
-let finalData = "";
 
-for (let info in user) {
-  finalData += `<div>The ${info} Is => ${user[info]}</div>`;
-};
+// Append Text to the New Element
+myNewElement.appendChild(myText); 
 
-document.body.innerHTML = finalData;
+// Inserting the New Element to My Main Div
+myMainDiv.insertBefore(myNewElement, myMainDiv.firstElementChild); 
